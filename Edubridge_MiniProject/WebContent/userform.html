@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>AddPage</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="content" style="color: whitesmoke;
+    font-size: 20px;
+    font-family: sans-serif;
+    margin : auto;
+    max-width : 500px;
+    ">
+
+<h1>Add New Traveller</h1>  
+<form action="adduser.jsp" method="post">  
+<table>  
+<tr><td>Name:</td><td><input type="text" name="name"/></td></tr>  
+<tr><td>Phone:</td><td>  
+<input type="text" name="password"/></td></tr>  
+<tr><td>Email:</td><td><input type="email" name="email"/></td></tr>  
+<tr><td>Sex:</td><td>  
+<input type="radio" name="sex" value="male"/>Male   
+<input type="radio" name="sex" value="female"/>Female </td></tr>  
+<tr><td>Country:</td><td>  
+<select name="country" style="width:155px">  
+<option>India</option>  
+<option>Pakistan</option>  
+<option>Afghanistan</option>  
+<option>Berma</option>  
+<option>Other</option>  
+</select>  
+</td></tr>  
+<tr><td colspan="2"><input type="submit" class="btn" value="Add Traveller"/></td></tr> 
+</table> 
+ <a href = "newindex.jsp">Back</a> 
+</form>
+</div>
+</body>
+</html>
